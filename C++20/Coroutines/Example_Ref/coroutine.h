@@ -1,7 +1,7 @@
 #include <iostream>
 #include "coroutine_task.h"
 
-CoroutineTask coro( int max )
+CoroTask coro( int &max )
 {
   std::cout <<"CORO: "<< max << " start " << std::endl;
 
